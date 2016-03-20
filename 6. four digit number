@@ -1,0 +1,30 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApplication1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int x = 9876;
+            int x1 = x % 10;
+            x = x / 10;
+            int x2 = x % 10;
+            x = x / 10;
+            int x3 = x % 10;
+            x = x / 10;
+            int x4 = x % 10;
+            int sum = x1 + x2 + x3 + x4;
+            Console.WriteLine(sum);
+            Console.WriteLine("{0}{1}{2}{3}",x1,x2,x3,x4);
+            Console.WriteLine("{0}{1}{2}{3}",x1,x4,x3,x2);
+            Console.WriteLine("{0}{1}{2}{3}", x4, x2, x3, x1);
+            Console.ReadKey();
+
+        }
+    }
+}
