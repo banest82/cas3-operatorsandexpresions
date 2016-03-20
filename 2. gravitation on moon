@@ -1,0 +1,15 @@
+using System;
+
+namespace ConsoleApplication1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            double n = 53.7;
+            double x = n * 0.17;
+            Console.WriteLine(x);
+            Console.ReadKey();
+        }
+    }
+}
