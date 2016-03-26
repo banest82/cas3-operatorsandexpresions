@@ -1,0 +1,21 @@
+using System;
+
+
+namespace ConsoleApplication1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int radius = 4;
+            double xY = 0;
+            double x = 1;
+            double y = 1.655;
+            double point = Math.Pow(xY - x, 2) + Math.Pow(xY - y, 2);
+            Console.WriteLine(point <= radius);
+            Console.ReadKey();
+            
+
+        }
+    }
+}
