@@ -1,18 +1,1 @@
-using System;
 
-namespace ConsoleApplication1
-{
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            
-            double x = 5;
-            double y = 5;
-            double per = 2 * x + 2 * y;
-            double area = x * y;
-            Console.WriteLine("perimeter is {0} area is {1}", per, area);
-            Console.ReadKey();
-        }
-    }
-}
