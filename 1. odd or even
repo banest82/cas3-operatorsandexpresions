@@ -1,15 +1,1 @@
-using System;
 
-namespace ConsoleApplication1
-{
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            int n = 3;
-            int x = n % 2;
-            Console.WriteLine(x != 0);
-            Console.ReadKey();
-        }
-    }
-}
